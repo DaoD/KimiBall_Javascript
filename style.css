@@ -1,0 +1,65 @@
+body {
+    background: url(psu.jpg);
+    text-align:center;
+}
+
+p {
+    font-family: Arial;
+    font-size: 60px;
+    display: inline;
+}
+audio {
+    display:none;
+}
+/*<font color="lightpink">K</font>
+    <font color="darkorange">i</font>
+    <font color="gold">m</font>
+    <font color="dimgray">i</font> 
+    <font color="forestgreen">B</font>
+    <font color="deepskyblue">a</font>
+    <font color="violet">l</font>
+    <font color="orangered">l</font></h1>
+*/
+#p1 {
+    color: lightpink;
+}
+
+#p2 {
+    color: darkorange;
+}
+
+#p3 {
+    color: gold;
+}
+
+#p4 {
+    color: dimgray;
+}
+
+#p5 {
+    color: forestgreen;
+}
+
+#p6 {
+    color: darkblue;
+}
+
+#p7 {
+    color: violet;
+}
+
+#p8 {
+    color: orangered;
+}
+#vuu{
+	display: none;
+}
+#vdd{
+	display: none;
+}
+#luu{
+	display: none;
+}
+#ldd{
+	display: none;
+}

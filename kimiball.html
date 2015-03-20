@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <title>Kimi Ball</title>
+    <script src="gameutf.js" type="text/javascript"></script>
+</head>
+<body>
+    <div>
+        <p id="p1">K</p>
+        <p id="p2">i</p>
+        <p id="p3">m</p>
+        <p id="p4">i</p>
+        <p id="p5">B</p>
+        <p id="p6">a</p>
+        <p id="p7">l</p>
+        <p id="p8">l</p>
+    </div>
+    <div>
+        <audio controls loop="loop" autoplay="autoplay">
+            <source src="器乐演奏-布拉格广场.wav" type="audio/wav">
+        </audio>
+        <br />
+        <img src="背景.jpg" border="3px" style="border-color: dimgray" usemap="#backgrounds" alt="KimiKimi" id="a1" />
+        <map name="backgrounds" id="backgrounds">   
+            <area shape="rect" coords="550,100,670,200" onclick="btnBegin_onclick()"/>
+            <area shape="rect" coords="50,180,170,280"  onclick="goto2()" />
+            <area shape="rect" coords="520,350,670,500" onclick="goto1()" />
+        </map>
+        <br />
+        <canvas id="canvas" width="820px" height="550px"></canvas>
+        <br />
+        <a onkeydown="keyevent()" />
+    </div>
+	<div>
+		<img id="vuu" src="速度++.png" alt="vuu" />
+		<img id="vdd" src="速度--.png" alt="vdd" />
+		<img id="luu" src="长度++.png" alt="luu" />
+		<img id="ldd" src="长度--.png" alt="ldd" />
+	</div>
+</body>
+</html>
